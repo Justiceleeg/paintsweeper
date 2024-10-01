@@ -1,0 +1,37 @@
+[gd_scene load_steps=3 format=3 uid="uid://pbmttvwqdusw"]
+
+[ext_resource type="Script" path="res://scripts/default_cell.gd" id="1_e0hho"]
+[ext_resource type="Texture2D" uid="uid://dskoaufjuato2" path="res://assets/Paint Tiles Atlas Update 3.png" id="2_q3pii"]
+
+[node name="DefaultCell" type="Node2D"]
+script = ExtResource("1_e0hho")
+
+[node name="BG" type="Sprite2D" parent="."]
+texture = ExtResource("2_q3pii")
+region_enabled = true
+region_rect = Rect2(128, 1024, 128, 128)
+
+[node name="WhiteAccent" type="Sprite2D" parent="."]
+texture = ExtResource("2_q3pii")
+region_enabled = true
+region_rect = Rect2(4352, 896, 128, 128)
+
+[node name="DiminishAccent" type="Sprite2D" parent="."]
+texture = ExtResource("2_q3pii")
+region_enabled = true
+region_rect = Rect2(128, 5120, 128, 128)
+
+[node name="DiminishVariance" type="Sprite2D" parent="."]
+texture = ExtResource("2_q3pii")
+region_enabled = true
+region_rect = Rect2(5760, 1024, 128, 128)
+
+[node name="PinkCircle" type="Sprite2D" parent="."]
+texture = ExtResource("2_q3pii")
+region_enabled = true
+region_rect = Rect2(1920, 5760, 128, 128)
+
+[node name="PinkVariance" type="Sprite2D" parent="."]
+texture = ExtResource("2_q3pii")
+region_enabled = true
+region_rect = Rect2(5248, 1664, 128, 128)

@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://dhbph8h2q0t07"]
+
+[ext_resource type="Texture2D" uid="uid://dskoaufjuato2" path="res://assets/Paint Tiles Atlas Update 3.png" id="1_mu1wr"]
+[ext_resource type="Texture2D" uid="uid://b1a1tcqsdthr1" path="res://assets/Paint Text Tiles.png" id="2_4hebk"]
+
+[node name="EightNumberCell" type="Node2D"]
+
+[node name="DotSprite" type="Sprite2D" parent="."]
+texture = ExtResource("1_mu1wr")
+region_enabled = true
+region_rect = Rect2(1920, 4224, 128, 128)
+
+[node name="NumberSprite" type="Sprite2D" parent="."]
+texture = ExtResource("2_4hebk")
+region_enabled = true
+region_rect = Rect2(256, 640, 128, 128)

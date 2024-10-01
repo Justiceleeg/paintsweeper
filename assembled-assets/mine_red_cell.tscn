@@ -1,0 +1,62 @@
+[gd_scene load_steps=2 format=3 uid="uid://nq5x1hnrkeai"]
+
+[ext_resource type="Texture2D" uid="uid://dskoaufjuato2" path="res://assets/Paint Tiles Atlas Update 3.png" id="1_x481v"]
+
+[node name="MineRedCell" type="Node2D"]
+
+[node name="BGSprite" type="Sprite2D" parent="."]
+texture = ExtResource("1_x481v")
+region_enabled = true
+region_rect = Rect2(128, 896, 128, 128)
+
+[node name="BlackCircleSprite" type="Sprite2D" parent="."]
+texture = ExtResource("1_x481v")
+region_enabled = true
+region_rect = Rect2(2560, 0, 128, 128)
+
+[node name="BG4" type="Sprite2D" parent="."]
+texture = ExtResource("1_x481v")
+region_enabled = true
+region_rect = Rect2(1920, 0, 128, 128)
+
+[node name="BG7" type="Sprite2D" parent="."]
+rotation = -0.785398
+texture = ExtResource("1_x481v")
+region_enabled = true
+region_rect = Rect2(1920, 0, 128, 128)
+
+[node name="BG5" type="Sprite2D" parent="."]
+rotation = 1.5708
+texture = ExtResource("1_x481v")
+region_enabled = true
+region_rect = Rect2(1920, 0, 128, 128)
+
+[node name="BG6" type="Sprite2D" parent="."]
+rotation = 0.785398
+texture = ExtResource("1_x481v")
+region_enabled = true
+region_rect = Rect2(1920, 0, 128, 128)
+
+[node name="BlackCircleSprite2" type="Sprite2D" parent="."]
+texture = ExtResource("1_x481v")
+region_enabled = true
+region_rect = Rect2(1792, 4992, 128, 128)
+
+[node name="BG8" type="Sprite2D" parent="."]
+position = Vector2(-25, -25)
+texture = ExtResource("1_x481v")
+region_enabled = true
+region_rect = Rect2(4864, 640, 128, 128)
+
+[node name="BG9" type="Sprite2D" parent="."]
+position = Vector2(-25, -25)
+rotation = 0.785398
+texture = ExtResource("1_x481v")
+region_enabled = true
+region_rect = Rect2(4864, 640, 128, 128)
+
+[node name="ShineSprite" type="Sprite2D" parent="."]
+position = Vector2(-25, -25)
+texture = ExtResource("1_x481v")
+region_enabled = true
+region_rect = Rect2(2432, 1920, 128, 128)

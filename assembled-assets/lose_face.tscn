@@ -1,0 +1,40 @@
+[gd_scene load_steps=2 format=3 uid="uid://b8jpy0mtfmsqs"]
+
+[ext_resource type="TileSet" uid="uid://df4me6nfd2i8j" path="res://assets/paint_tile_set.tres" id="1_1qiw2"]
+
+[node name="LoseFace" type="Node2D"]
+
+[node name="ButtonLayer" type="TileMapLayer" parent="."]
+position = Vector2(-50, -50)
+tile_map_data = PackedByteArray(0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 8, 0, 0, 0)
+tile_set = ExtResource("1_1qiw2")
+
+[node name="HorizLayer" type="TileMapLayer" parent="."]
+position = Vector2(-50, 0)
+tile_map_data = PackedByteArray(0, 0, 0, 0, 255, 255, 1, 0, 11, 0, 47, 0, 0, 0, 0, 0, 0, 0, 1, 0, 11, 0, 33, 0, 0, 0)
+tile_set = ExtResource("1_1qiw2")
+
+[node name="VertLayer" type="TileMapLayer" parent="."]
+position = Vector2(0, -50)
+tile_map_data = PackedByteArray(0, 0, 0, 0, 0, 0, 1, 0, 10, 0, 33, 0, 0, 0)
+tile_set = ExtResource("1_1qiw2")
+
+[node name="VertLayer2" type="TileMapLayer" parent="."]
+position = Vector2(0, -50)
+tile_map_data = PackedByteArray(0, 0, 255, 255, 0, 0, 1, 0, 10, 0, 47, 0, 0, 0)
+tile_set = ExtResource("1_1qiw2")
+
+[node name="HeadLayer" type="TileMapLayer" parent="."]
+position = Vector2(-50, -50)
+tile_map_data = PackedByteArray(0, 0, 0, 0, 0, 0, 1, 0, 21, 0, 14, 0, 0, 0)
+tile_set = ExtResource("1_1qiw2")
+
+[node name="FuzzLayer" type="TileMapLayer" parent="."]
+position = Vector2(-50, -50)
+tile_map_data = PackedByteArray(0, 0, 0, 0, 0, 0, 1, 0, 40, 0, 14, 0, 0, 0)
+tile_set = ExtResource("1_1qiw2")
+
+[node name="FrownLayer" type="TileMapLayer" parent="."]
+position = Vector2(-50, -50)
+tile_map_data = PackedByteArray(0, 0, 0, 0, 0, 0, 1, 0, 29, 0, 0, 0, 0, 0)
+tile_set = ExtResource("1_1qiw2")

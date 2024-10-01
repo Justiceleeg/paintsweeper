@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://c8kit824kr01c"]
+
+[ext_resource type="Script" path="res://scripts/game_state_manager.gd" id="1_cxk88"]
+
+[node name="GameStateManager" type="Node"]
+script = ExtResource("1_cxk88")
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true
